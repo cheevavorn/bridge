@@ -1,0 +1,9 @@
+RewriteEngine On
+AddDefaultCharset utf-8
+
+# visitors route
+RewriteRule ^index$ index.php
+RewriteRule ^president-palace$ president-palace.php
+RewriteRule ^historial$ historial.php
+RewriteRule ^competition-format$ competition-format.php
+RewriteRule ^rule$ rule.php
